@@ -1,0 +1,13 @@
+.projects {
+    width: max-content;
+    height: max-content;
+}
+
+.card-body {
+    border-radius: 25px !important;
+}
+
+.projects1 {
+    margin: 0;
+    width: 100vw;
+}
