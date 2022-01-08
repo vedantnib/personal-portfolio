@@ -5,7 +5,7 @@ const Project = ({ name, description, date }) => {
     return (
         <VerticalTimelineElement
             className="vertical-timeline-element --work"
-            contentStyle={{ background: 'rgb(0, 0, 0)', color: 'rgb(255, 255, 255)' }}
+            contentStyle={{ background: 'rgb(22, 28, 45)', color: 'rgb(255, 255, 255)' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
             date={date}
             iconStyle={{ color: 'rgb(255, 255, 255)' }}
