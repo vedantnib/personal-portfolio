@@ -49,7 +49,8 @@ const Projects = () => {
                         return <Project
                             name={project.name}
                             description={project.description}
-                            date={project.date} />
+                            date={project.date}
+                            link = {project.link} />
                     })}
                 </VerticalTimeline>
             </div>
