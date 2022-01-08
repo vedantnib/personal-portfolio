@@ -3,6 +3,8 @@ import FrontPage from './components/FrontPage/FrontPage';
 import './App.css';
 import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
+import Contact from './components/Contact/Contact';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <FrontPage />
       <Projects />
       <Experience />
+      <Blogs />
+      <Contact/>
     </div>
   );
 }
