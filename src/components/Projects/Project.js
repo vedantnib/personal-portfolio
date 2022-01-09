@@ -12,7 +12,13 @@ const Project = ({ name, description, date }) => {
         >
             <h4 className="vertical-timeline-element-title">{name}</h4>
             <p>
-                {description}
+                <ul>
+                    {description.map(line => {
+                        return <li>
+                            {line}
+                        </li>
+                    })}
+                </ul>
             </p>
         </VerticalTimelineElement>
     );

@@ -32,7 +32,7 @@ const Contact = () => {
                             </a>
                         </span>
                         <span className='icons'>
-                            <a href="https://www.facebook.com/vedantnibandhehttps://www.facebook.com/vedantnibandhe">
+                            <a href="https://www.facebook.com/vedantnibandhe">
                                 <Facebook className='icon' />
                             </a>
                         </span>
