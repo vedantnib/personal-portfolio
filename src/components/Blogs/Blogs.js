@@ -30,7 +30,8 @@ const Blogs = () => {
                         return <Blog
                             blogName={blog.blogName}
                             description={blog.description}
-                            date={blog.date} />
+                            date={blog.date} 
+                            link = {blog.link}/>
                     })}
                 </VerticalTimeline>
             </div>
