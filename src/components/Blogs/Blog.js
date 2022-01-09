@@ -1,7 +1,7 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
-import 'react-vertical-timeline-component/style.min.css';
+import { Button } from "react-bootstrap";
 
-const Project = ({ name, description, date }) => {
+const Blog = ({ blogName, description, date, link }) => {
     return (
         <VerticalTimelineElement
             className="vertical-timeline-element --work"
@@ -10,18 +10,20 @@ const Project = ({ name, description, date }) => {
             date={date}
             iconStyle={{ color: 'rgb(255, 255, 255)' }}
         >
-            <h4 className="vertical-timeline-element-title">{name}</h4>
+            <h4 className="vertical-timeline-element-title">{blogName}</h4>
             <p>
-                <ul>
-                    {description.map(line => {
-                        return <li>
-                            {line}
-                        </li>
-                    })}
-                </ul>
+                {description}
+                <br></br>
+                <br></br>
+                <a href= {link}>
+                    <Button variant="primary" size="sm">
+                        Got to Blog
+                    </Button>
+                </a>
             </p>
+
         </VerticalTimelineElement>
     );
 }
 
-export default Project;
+export default Blog;

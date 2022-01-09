@@ -13,7 +13,14 @@ const ExpCard = ({title, company, description, date}) => {
             <h3 className="vertical-timeline-element-title">{title}</h3>
             <h5 className="vertical-timeline-element-subtitle">{company}</h5>
             <p>
-                {description}
+                <ul>
+                {description.map(line => {
+                    return <li>
+                        {line}
+                    </li>
+                })}
+                </ul>
+                
             </p>
         </VerticalTimelineElement>
     );
