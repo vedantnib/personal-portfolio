@@ -8,7 +8,7 @@ const Navbar = () => {
         <>
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
                 <div className="container">
-                    <a href='vedantnibandhe.herokuapp.com' className="navbar-brand">Vedant Nibandhe</a>
+                    <a href='https://vedantnibandhe.netlify.app/' className="navbar-brand">Vedant Nibandhe</a>
                     <button
                         className="navbar-toggler"
                         type="button"
