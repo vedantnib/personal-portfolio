@@ -1,4 +1,4 @@
-import { Button, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './Contact.css'
 import { ReactComponent as LinkedIn } from './images/LinkedIn.svg';
 import { ReactComponent as Twitter } from './images/Twitter.svg';
